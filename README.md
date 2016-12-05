@@ -11,3 +11,7 @@ flickr 2004-2012 zazzle tshirt
 * 4. ```head -40000 flickr-roland-2004-12-avgcolour.csv >1st40000-flickr-roland-2004-12-avgcolour.csv```
 * 5. ```Rscript zazzle-tshirt-flickr2004-12-square-pie-chart.R 1st40000-flickr-roland-2004-12-avgcolour.csv```
 * 6. ```mv r-png-1st40000-flickr-roland-2004-12-avgcolour.png 200-rows-16800x14400-r-png-1st40000-flickr-roland-2004-12-avgcolour.png``` go to zazzle .com and make tshirts with this graphic, it seems to resize to 2100x1800 from 16800 x 14400 
+
+### 04December2016 Output
+
+![200 row square pie chart aka waffle chart of 1st 40000 photos of flickr.co/roland average colour made by by an R Script](https://github.com/rtanglao/rt-04dec2016-flickr-2004-12-zazzle-tshirt/blob/master/200-rows-16800x14400-r-png-1st40000-flickr-roland-2004-12-avgcolour.png)
