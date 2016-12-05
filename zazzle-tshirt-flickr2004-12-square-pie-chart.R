@@ -187,7 +187,7 @@ main <- function() {
   print(sum(colour_vector2))
   magic_row_size_number = 100
 
-  numrows = 100
+  numrows = 200
   print (numrows)
   print(countcolourname$colourname)
   p = roland_waffle(
@@ -200,12 +200,12 @@ main <- function() {
   filename = sprintf("r-png-%s", gsub("csv", "png", basename(args[1])))
   ggsave(filename,
          p,
-         width = 29.166666667,
-         height = 25,
+         width = 233.33333333,
+         height = 200,
          dpi = 72,
          limitsize = FALSE,
          bg = "transparent"
-         ) #multiply height and width by dpi to get px of 2100x1800
+         ) #multiply height and width by dpi to get px of 16800*14400
 }
 
 sink("log.txt")
